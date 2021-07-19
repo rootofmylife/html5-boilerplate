@@ -3,24 +3,117 @@ input[type="checkbox"] {
   display: none;
 }
 
-.lbl-toggle {
+/* First row */
+.lbl-toggle-first {
   display: block;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.25s ease-out;
 }
 
-.lbl-toggle:hover {
+.lbl-toggle-first:hover {
   text-decoration: underline;
 }
 
-.collapsible-content {
+.collapsible-content-first {
   max-height: 0px;
   overflow: hidden;
   transition: max-height overflow 0.25s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content {
+.toggle-first:checked + .lbl-toggle-first + .collapsible-content-first {
+  max-height: 100vh;
+  overflow: visible;
+}
+
+/* Second row */
+.lbl-toggle-second {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-second:hover {
+  text-decoration: underline;
+}
+
+.collapsible-content-second {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height overflow 0.25s ease-in-out;
+}
+
+.toggle-second:checked + .lbl-toggle-second + .collapsible-content-second {
+  max-height: 100vh;
+  overflow: visible;
+}
+
+/* Third row */
+.lbl-toggle-third {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-third:hover {
+  text-decoration: underline;
+}
+
+.collapsible-content-third {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height overflow 0.25s ease-in-out;
+}
+
+.toggle-third:checked + .lbl-toggle-third + .collapsible-content-third {
+  max-height: 100vh;
+  overflow: visible;
+}
+
+/* Forth row */
+.lbl-toggle-forth {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-forth:hover {
+  text-decoration: underline;
+}
+
+.collapsible-content-forth {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height overflow 0.25s ease-in-out;
+}
+
+.toggle-forth:checked + .lbl-toggle-forth + .collapsible-content-forth {
+  max-height: 100vh;
+  overflow: visible;
+}
+
+/* Fifth row */
+.lbl-toggle-fifth {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-fifth:hover {
+  text-decoration: underline;
+}
+
+.collapsible-content-fifth {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height overflow 0.25s ease-in-out;
+}
+
+.toggle-fifth:checked + .lbl-toggle-fifth + .collapsible-content-fifth {
   max-height: 100vh;
   overflow: visible;
 }
